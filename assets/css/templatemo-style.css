@@ -113,11 +113,31 @@ html {
     display: block;
 }
 
-.main-nav li a {
-    height: 70px;
-    line-height: 70px;
+.social-div{
+    margin-bottom: -50px;
+}
+
+.socials {
     display: inline-block;
-    font-size: 16px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+.socials :hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.main-nav li a {
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
     width: 100%;

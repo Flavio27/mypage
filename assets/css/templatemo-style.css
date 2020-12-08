@@ -602,6 +602,9 @@ figure.snip1321 {
   text-align: center;
   -webkit-perspective: 50em;
   perspective: 50em;
+  width: 500px;
+  height: 400px;
+  object-fit: fill;
 }
 figure.snip1321 * {
   -webkit-box-sizing: padding-box;
